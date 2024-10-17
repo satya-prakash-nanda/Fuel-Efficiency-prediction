@@ -53,3 +53,17 @@ A Streamlit-based web application was developed with two main pages:
 Prediction Page: Takes user inputs (load, speed, area, HP, soil type, terrain) and provides fuel consumption and efficiency predictions.
 Analytics Page: Offers data visualizations to explore trends and insights.
 
+
+
+## Results and Evaluation
+
+Random Forest Regressor achieved the best performance:
+
+R² Score: 0.91
+
+Mean Squared Error (MSE): 1.23
+
+Mean Absolute Error (MAE): 0.87
+
+The model was saved as a pickle file for easy integration into the web app.
+
